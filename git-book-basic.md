@@ -1,5 +1,7 @@
 # Git Book基本使用
 
+## 创建git book流程
+
 1 在Github上创建一个新仓库，这个仓库就是用来存放git book文件。  
 ![](assets/imgs/create_repository.png)
 
@@ -58,5 +60,7 @@ dist/xxx 目录文件对应发布至 -> https://github.com/lixinyao0722/my-book/
 
 9 在线查看效果，地址http://lixinyao0722.github.io/my-book/index.html
 
+## 参考
 
+[Gitbook命令行速览](https://yuzeshan.gitbooks.io/gitbook-studying/content/howtouse/gitbookcli.html)
 
