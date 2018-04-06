@@ -1,0 +1,9 @@
+{
+  "language": "zh-hans",
+  "gitbook": ">=2.0.0",
+  "description": "This is such a great book!",
+  "title": "Weber学习指南",
+  "plugins": [
+    "expandable-chapters-small"
+  ]
+}
