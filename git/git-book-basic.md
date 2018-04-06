@@ -62,5 +62,6 @@ dist/xxx 目录文件对应发布至 -> https://github.com/lixinyao0722/my-book/
 
 ## 参考
 
-[Gitbook命令行速览](https://yuzeshan.gitbooks.io/gitbook-studying/content/howtouse/gitbookcli.html)
+* [Gitbook命令行速览](http://yuzeshan.gitbooks.io/gitbook-studying/content/)
+* [gitbook入门教程.pdf](../assets/resources/gitbook入门教程.pdf)
 
