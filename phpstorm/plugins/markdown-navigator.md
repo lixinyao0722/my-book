@@ -22,8 +22,8 @@ Markdown-Navigator可谓是PhpStrom内置markdown插件的升级版，支持更�
 ## 破解方案
 
 1.到[此处](https://github.com/CrazyBunQnQ/multimarkdown)下载两个class文件。
->LicenseAgent.class  
->LicenseRequest.class
+> [LicenseAgent.class](../../assets/resources/phpstorm/plugins/markdown-navigator/crack/LicenseAgent.class)  
+> [LicenseRequest.class](../../assets/resources/phpstorm/plugins/markdown-navigator/crack/LicenseRequest.class)
 
 2.找到Markdown-Navigator安装目录下的`idea-multimarkdown.jar`。
 >C:/Users/{username}/.PhpStorm2018.1/config/plugins/idea-multimarkdown/lib
@@ -38,3 +38,5 @@ Markdown-Navigator可谓是PhpStrom内置markdown插件的升级版，支持更�
 
 ![](../../assets/imgs/markdown-navigator-done.png)
 
+## 参考
+[CrazyBunQnQ/multimarkdown](https://github.com/CrazyBunQnQ/multimarkdown)
