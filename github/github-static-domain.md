@@ -4,15 +4,17 @@
 
 为了能够在github上发布静态网页，需要创建一个特殊的仓库。  
 其名字为
+
 ```
 {username}.github.io
 ```
+
 我的是：lixinyao0722.github.io
 
 ![](../assets/imgs/special_repo.png)
 
-创建该仓库之后，github便为你分配了域名**`lixinyao0722.github.io`**。   
-在该仓库放置静态html文件，可通过域名进行访问。   
+创建该仓库之后，github便为你分配了域名**`lixinyao0722.github.io`**。  
+在该仓库放置静态html文件，可通过域名进行访问。
 
 例如
 
@@ -29,18 +31,8 @@
 ![](../assets/imgs/visit-by-gh-pages.png)
 
 > 仓库名称：my-book  
-分支：gh-pages  
-页面：index.html   
-访问地址：https://lixinyao0722.github.io/my-book/index.html
-
-
-
-
-
-
-
-
-
-
+> 分支：gh-pages  
+> 页面：index.html  
+> 访问地址：https://lixinyao0722.github.io/my-book/index.html
 
 
