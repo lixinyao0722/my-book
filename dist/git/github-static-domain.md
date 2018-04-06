@@ -9,24 +9,24 @@
 ```
 我的是：lixinyao0722.github.io
 
-![](assets/imgs/special_repo.png)
+![](../assets/imgs/special_repo.png)
 
 创建该仓库之后，github便为你分配了域名**`lixinyao0722.github.io`**。   
 在该仓库放置静态html文件，可通过域名进行访问。   
 
 例如
 
-![仓库文件概况](assets/imgs/domain_repository.png)  
+![仓库文件概况](../assets/imgs/domain_repository.png)  
 仓库文件概况
 
-![](assets/imgs/example-hello-world.png)  
+![](../assets/imgs/example-hello-world.png)  
 浏览器访问方式
 
 ## 2 gh-pages与域名的关系
 
 任何一个项目，都可以创建特殊分支gh-pages，该分支上的静态页面也能通过上述域名访问。
 
-![](assets/imgs/visit-by-gh-pages.png)
+![](../assets/imgs/visit-by-gh-pages.png)
 
 > 仓库名称：my-book  
 分支：gh-pages  

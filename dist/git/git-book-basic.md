@@ -3,7 +3,7 @@
 ## 创建git book流程
 
 1 在Github上创建一个新仓库，这个仓库就是用来存放git book文件。  
-![](assets/imgs/create_repository.png)
+![](../assets/imgs/create_repository.png)
 
 2 git clone项目到本地，同时创建gh-pages分支。 
 ```bash
