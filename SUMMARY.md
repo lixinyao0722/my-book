@@ -10,6 +10,6 @@
 * [鹅漫](umall/umall.md)
   * [鹅漫商城](umall/umall-web.md)
   * [鹅漫后台管理系统](umall/umall-admin.md)
-* [PhpStorm](phpstorm.md)
-  * [PhpStorm插件](phpstorm/plugins.md)
+* [PhpStorm](phpstorm/phpstorm.md)
+  * [PhpStorm插件](phpstorm/plugins/plugins.md)
     * [Markdown-Navigator](phpstorm/plugins/markdown-navigator.md)
