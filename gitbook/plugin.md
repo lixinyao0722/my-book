@@ -98,16 +98,16 @@ npm i gitbook-plugin-expandable-chapters --save
 }
 ```
 
-- expandable-chapters  
+- `expandable-chapters`  
   支持左侧导航栏折叠，配合SUMMARY.md一起使用。
-- anchor-navigation-ex  
+- `anchor-navigation-ex`  
   添加Toc到侧边悬浮导航以及回到顶部按钮，配置参数点击
   [此处](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md)。
 - splitter  
   使侧边栏的宽度可以自由调节
-- edit-link  
+- `edit-link`  
   页面顶部出现编辑当前页面按钮
-- prism  
+- `prism`  
   取代gitbook默认提供的代码高亮功能，使用方法如下。
 
 ```json
@@ -120,7 +120,7 @@ npm i gitbook-plugin-expandable-chapters --save
 }
 ```
 
-- search-plus  
+- `search-plus`  
   左侧导航栏上的搜索框，支持全局模糊搜索中文，使用方法。
 
 ```json
@@ -133,8 +133,8 @@ npm i gitbook-plugin-expandable-chapters --save
 }
 ```
 
-- advanced-emoji  
-  支持emoji图标，使用方式如`:kissing_heart:`:kissing_heart:，更多图标大全请点击
+- `advanced-emoji`  
+  支持emoji图标，使用方式如`:kissing_heart:` :kissing_heart:，更多图标大全请点击
   [此处](https://www.webpagefx.com/tools/emoji-cheat-sheet/) 。
 
 ## 参考
