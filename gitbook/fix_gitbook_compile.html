@@ -1,0 +1,474 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>解决gitbook编译命令错误 · Weber学习指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook-plugin-prism/prism-xonokai.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../github/github.html" />
+    
+    
+    <link rel="prev" href="plugin.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="gitbook-store.html">
+            
+                <a href="gitbook-store.html">
+            
+                    
+                    Git Book知识储备
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="git-book-basic.html">
+            
+                <a href="git-book-basic.html">
+            
+                    
+                    Git Book基本使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="book.json.html">
+            
+                <a href="book.json.html">
+            
+                    
+                    Git Book配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="plugin.html">
+            
+                <a href="plugin.html">
+            
+                    
+                    Git Book插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="fix_gitbook_compile.html">
+            
+                <a href="fix_gitbook_compile.html">
+            
+                    
+                    解决gitbook编译命令错误
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../github/github.html">
+            
+                <a href="../github/github.html">
+            
+                    
+                    Github相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../github/github-static-domain.html">
+            
+                <a href="../github/github-static-domain.html">
+            
+                    
+                    Github静态域名
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../umall/umall.html">
+            
+                <a href="../umall/umall.html">
+            
+                    
+                    鹅漫
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../umall/umall-web.html">
+            
+                <a href="../umall/umall-web.html">
+            
+                    
+                    鹅漫商城
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../umall/umall-admin.html">
+            
+                <a href="../umall/umall-admin.html">
+            
+                    
+                    鹅漫后台管理系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../phpstorm/phpstorm.html">
+            
+                <a href="../phpstorm/phpstorm.html">
+            
+                    
+                    PhpStorm
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../phpstorm/plugins/plugins.html">
+            
+                <a href="../phpstorm/plugins/plugins.html">
+            
+                    
+                    PhpStorm插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../phpstorm/plugins/markdown-navigator.html">
+            
+                <a href="../phpstorm/plugins/markdown-navigator.html">
+            
+                    
+                    破解Markdown-Navigator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../vpn/vpn.html">
+            
+                <a href="../vpn/vpn.html">
+            
+                    
+                    VPN科学上网
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >解决gitbook编译命令错误</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x89E3;&#x51B3;gitbook&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x9519;&#x8BEF;"><b></b>&#x89E3;&#x51B3;gitbook&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x9519;&#x8BEF;</a></li><ul><li><span class="title-icon "></span><a href="#&#x95EE;&#x9898;&#x63CF;&#x8FF0;"><b></b>&#x95EE;&#x9898;&#x63CF;&#x8FF0;</a></li><li><span class="title-icon "></span><a href="#&#x89E3;&#x51B3;&#x65B9;&#x6CD5;"><b></b>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x8003;"><b></b>&#x53C2;&#x8003;</a></li></ul></ul></div><a href="#&#x89E3;&#x51B3;gitbook&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x9519;&#x8BEF;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x89E3;&#x51B3;gitbook&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x9519;&#x8BEF;"><a name="&#x89E3;&#x51B3;gitbook&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x9519;&#x8BEF;" class="anchor-navigation-ex-anchor" href="#&#x89E3;&#x51B3;gitbook&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x9519;&#x8BEF;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x89E3;&#x51B3;gitbook&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x9519;&#x8BEF;</h1>
+<h2 id="&#x95EE;&#x9898;&#x63CF;&#x8FF0;"><a name="&#x95EE;&#x9898;&#x63CF;&#x8FF0;" class="anchor-navigation-ex-anchor" href="#&#x95EE;&#x9898;&#x63CF;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x95EE;&#x9898;&#x63CF;&#x8FF0;</h2>
+<p>&#x4F7F;&#x7528;<code>gitbook serve .</code>&#x6216;<code>gitbook build . dist</code>&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x65F6;&#xFF0C;&#x7ECF;&#x5E38;&#x51FA;&#x73B0;&#x5982;&#x4E0B;&#x9519;&#x8BEF;&#x3002;</p>
+<p><img src="../assets/imgs/gitbook-cli-compile-bug.png" alt="gitbook-cli-compile-bug"></p>
+<h2 id="&#x89E3;&#x51B3;&#x65B9;&#x6CD5;"><a name="&#x89E3;&#x51B3;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x89E3;&#x51B3;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</h2>
+<p>&#x4FEE;&#x6539;&#x6587;&#x4EF6;<code>copyPluginAssets.js</code></p>
+<p><img src="../assets/imgs/gitbook-cli-compile-bug-fix-mine.png" alt="gitbook-cli-compile-bug-fix-mine"></p>
+<p><img src="../assets/imgs/gitbook-cli-compile-bug-fix-code.png" alt="gitbook-cli-compile-bug-fix-code"></p>
+<h2 id="&#x53C2;&#x8003;"><a name="&#x53C2;&#x8003;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x8003;</h2>
+<ul>
+<li><a href="https://github.com/GitbookIO/gitbook/issues/1309" target="_blank">gitbook/issues/1309</a></li>
+</ul>
+<p><img src="../assets/imgs/gitbook-cli-compile-bug-solution.png" alt="gitbook-cli-compile-bug-solution"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="plugin.html" class="navigation navigation-prev " aria-label="Previous page: Git Book插件">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../github/github.html" class="navigation navigation-next " aria-label="Next page: Github相关">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"解决gitbook编译命令错误","level":"1.2.4","depth":2,"next":{"title":"Github相关","level":"1.3","depth":1,"path":"github/github.md","ref":"github/github.md","articles":[{"title":"Github静态域名","level":"1.3.1","depth":2,"path":"github/github-static-domain.md","ref":"github/github-static-domain.md","articles":[]}]},"previous":{"title":"Git Book插件","level":"1.2.3","depth":2,"path":"gitbook/plugin.md","ref":"gitbook/plugin.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex","expandable-chapters","splitter","edit-link","prism","prism-themes","-highlight","search-plus","-lunr","-search","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-xonokai.css"]},"splitter":{},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":false},"prism-themes":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"编辑本页","base":"https://github.com/lixinyao0722/my-book/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Weber学习指南","language":"zh-hans","gitbook":"*","description":"This is such a great book!"},"file":{"path":"gitbook/fix_gitbook_compile.md","mtime":"2018-04-07T08:46:15.403Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-07T08:49:33.162Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook.js"></script>
+    <script src="theme.js"></script>
+    
+        
+        <script src="gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
