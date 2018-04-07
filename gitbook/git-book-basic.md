@@ -10,10 +10,13 @@
 ```bash
 # 克隆代码到本地
 git clone https://github.com/lixinyao0722/my-book
+
 # 创建gh-pages分支
 git branch gh-pages
+
 # 切换分支
 git checkout gh-pages
+
 # 将分支关联远程仓库，并发布
 git push --set-upstream origin
 ```
@@ -53,7 +56,11 @@ gitbook init
 6 在master分支上md文件编写完毕后，可在本地启动临时服务器查看效果。
 
 ```bash
+# 不加调试参数容易出现各种error
 gitbook serve .
+
+# 加上参数大大降低gitbook命令出错率
+gitbook serve . --log=debug --debug
 ```
 
 查看地址：http://localhost:4000

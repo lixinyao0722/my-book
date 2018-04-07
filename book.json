@@ -1,9 +1,39 @@
 {
   "language": "zh-hans",
-  "gitbook": ">=2.0.0",
   "description": "This is such a great book!",
   "title": "Weber学习指南",
   "plugins": [
-    "expandable-chapters-small"
-  ]
+    "anchor-navigation-ex",
+    "expandable-chapters",
+    "splitter",
+    "edit-link",
+    "prism",
+    "prism-themes",
+    "-highlight",
+    "search-plus",
+    "-lunr",
+    "-search",
+    "advanced-emoji"
+  ],
+  "pluginsConfig": {
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-xonokai.css"
+      ]
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "mode": "float",
+      "float": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "edit-link": {
+      "base": "https://github.com/lixinyao0722/my-book/blob/master",
+      "label": "编辑本页"
+    }
+  }
 }

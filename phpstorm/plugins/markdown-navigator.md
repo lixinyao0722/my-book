@@ -1,4 +1,4 @@
-# PhpStorm插件之Markdown-Navigator
+# 破解Markdown-Navigator
 
 ## 简介
 
