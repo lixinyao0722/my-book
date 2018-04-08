@@ -18,7 +18,7 @@ git branch gh-pages
 git checkout gh-pages
 
 # 将分支关联远程仓库，并发布
-git push --set-upstream origin
+git push --set-upstream origin gh-pages
 ```
 
 >第一次创建分支push到远程时，需要添加`--set-upstream`参数设置远程的跟踪分支。
